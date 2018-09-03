@@ -1,5 +1,6 @@
 ># **_UNDO_RETENTION_**
 ##### * 작업은 Toad For Oracle Toole을 사용하여 진행을 하였습니다.
+##### * 작업을 하게된 이유 및 작업간 이슈사항은 [여기() ](http://sksggg123.tistory.com/10) 클릭 하시면 확인 하 실수 있습니다.
 
 ## UNDO_RETENTION 정의
 #### *   일관성 읽기를 위해 제공되는 Undo 데이타의 보유 기간을 결정합니다.
