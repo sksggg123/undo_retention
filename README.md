@@ -51,3 +51,9 @@
     -- 부족하던 undo tablespace에 붙여둔 datafile를 including contents and datafiles를 하지 않았을때 아래 쿼리로 재사용 가능
     alter tablespace undotbs_temp add datafile '~/~dbf' reuse;
 ```
+
+
+#참고 undo retention 확인 쿼리
+```sql
+    select * from v$parameter where name = 'undo_retention';
+```
