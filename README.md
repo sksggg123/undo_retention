@@ -60,6 +60,3 @@
 
 #참고 undo retention spfile, pfile
 *   pfile의 경우 리스너, 인스턴스 기동 간 init.ora에 value로 지정된 TBS의 값을 읽어 오기 때문에 TBS를 변경한다면 init.ora 수정이 필요하다. TBS변경 후 설정을 하지 않을경우 리스너가 올라오지 않는다.
-```sql
-    select * from v$parameter where name = 'undo_retention';
-```
